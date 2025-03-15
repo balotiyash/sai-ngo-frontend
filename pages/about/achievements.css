@@ -1,0 +1,40 @@
+/* Achievements Section */
+.achievementsDiv {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* padding-top: 450px; */
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.achievement {
+    width: 75%;
+    border: 2px solid #f38232;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.achievement img {
+    margin: 8px 0;
+}
+
+.achievement p {
+    margin: 0;
+}
+
+.divider {
+    width: 2px;
+    min-height: 20px;
+    background-color: #f38232;
+}
