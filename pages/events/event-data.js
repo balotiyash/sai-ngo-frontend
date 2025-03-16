@@ -29,6 +29,6 @@ export const events = [
         date: "2025-05-15",
         description: "Join us in collecting food items for the homeless and underprivileged. Volunteers are welcome to participate in food distribution.",
         image: "../../assets/events/event3.jpg",
-        status: "Upcoming"
+        status: "Past"
     }
 ];

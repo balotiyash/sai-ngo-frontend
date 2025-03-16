@@ -26,7 +26,7 @@
 
     <!-- Events Section -->
     <section>
-        <h1>Upcoming Events</h1>
+        <h1 id="title-text">Upcoming Events</h1>
 
         <div class="events">
         </div>
