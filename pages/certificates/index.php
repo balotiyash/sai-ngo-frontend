@@ -29,14 +29,18 @@
 
         <!-- Certificates -->
         <div class="certificates">
-            
+
         </div>
-    </div>
+        </div>
     </section>
+
+    <!-- Footer -->
+    <?php include '../../shared/footer/footer.html'; ?>
 
 </body>
 
 <script>
+    // certificates data
     const certificates = [
         {
             url: "../../assets/certificates/cert1.jpg",
@@ -116,8 +120,10 @@
         }
     ]
 
+    // certificates container
     const certificatesContainer = document.querySelector('.certificates');
 
+    // create certificate cards
     certificates.forEach(certificate => {
         const certificateCard = document.createElement('div');
         certificateCard.classList.add('certificate-card');
@@ -130,11 +136,22 @@
         certificatesContainer.appendChild(certificateCard);
     });
 
+    // Add click event listener to each certificate card
     const certificateCards = document.querySelectorAll('.certificate-card');
 
     certificateCards.forEach(certificateCard => {
         certificateCard.addEventListener('click', () => {
-            window.open(certificateCard.querySelector('img').src);
+            const imageSrc = certificateCard.querySelector('img').src;
+
+            // Open the image in a new tab
+            const newWindow = window.open(imageSrc, '_blank');
+
+            // Wait for the new window to load, then apply zoom
+            if (newWindow) {
+                newWindow.onload = () => {
+                    newWindow.document.body.style.zoom = "200%"; // Zoom to 200%
+                };
+            }
         });
     });
 

@@ -1,0 +1,89 @@
+/** 
+ * File: pages/about/event-details.css
+ * Author: Atharv Mirgal
+ * Description: CSS file for Events Details in Event Page.
+ * Created on: 16/03/2025
+ * Last Modified: 16/03/2025
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.event-banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.event-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.add-to-calendar {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-to-calendar:hover {
+    background: #0056b3;
+}
+
+.event-details {
+    text-align: left;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.event-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #ff3b3b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background: #c42e2e;
+}
