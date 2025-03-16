@@ -1,3 +1,11 @@
+/** 
+ * File: pages/about/achievements.css
+ * Author: Yash Balotiya
+ * Description: CSS file for Achievements Section in About Page.
+ * Created on: 15/03/2025
+ * Last Modified: 16/03/2025
+*/
+
 /* Achievements Section */
 .achievementsDiv {
     width: 100%;
@@ -8,11 +16,11 @@
     margin-top: 8px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 20px;
-    /* padding-top: 450px; */
     border-radius: 10px;
     overflow-y: auto;
 }
 
+/* Achievement Card */
 .achievement {
     width: 75%;
     border: 2px solid #f38232;

@@ -42,6 +42,9 @@
         <!-- Board Members -->
         <?php include './boardMembers.html'; ?>
     </main>
+
+    <!-- Footer -->
+    <?php include '../../shared/footer/footer.html'; ?>
 </body>
 
 </html>

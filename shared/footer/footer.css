@@ -1,0 +1,98 @@
+/** 
+ * File: shared/footer/footer.css
+ * Author: Yash Balotiya
+ * Description: This file contains the css for the footer component.
+ * Created on: 16/03/2025
+ * Last Modified: 16/03/2025
+*/
+
+/* Main Footer */
+footer {
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px;
+    padding-bottom: 20px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 1st Section */
+.child1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 75%;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.icons {
+    color: #f38232;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+/* Divider */
+.hdivider {
+    width: 50%;
+    background-color: lightgray;
+    height: 1px;
+    margin: 20px 0;
+}
+
+/* Quick Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    color: #f38232;
+}
+
+.links a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    transition: 0.3s ease all;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.child2 {
+    gap: 100px;
+}
+
+/* Donate Btn */
+.footerDonateBtn {
+    height: 50px;
+    width: 150px;
+    background-color: #f38232;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.footerDonateBtn:hover {
+    background-color: #ffa334;
+    color: white;
+}
+
+/* Copywrite */
+.copywrite {
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}

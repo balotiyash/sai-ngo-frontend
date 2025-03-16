@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This file contains styling part of Navbar.
     Created on: 15/03/2025
-    Last Modified: 15/03/2025
+    Last Modified: 16/03/2025
 */
 
 header {
@@ -146,10 +146,6 @@ nav li:first-child {
 
     nav {
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .sidebar li a:hover {
-        /* color: #f38232; */
     }
 
     .navDonateBtn {
