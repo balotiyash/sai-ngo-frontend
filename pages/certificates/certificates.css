@@ -1,0 +1,59 @@
+/** 
+ * File: pages/about/certificates.css
+ * Author: Atharv Mirgal
+ * Description: CSS file for Certificates Section in Certificate Page.
+ * Created on: 16/03/2025
+ * Last Modified: 16/03/2025
+*/
+
+/* Certificates Section */
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+}
+
+.certificate-card {
+    width: calc(100% / 5 - 20px); /* Ensures 5 cards per row with spacing */
+    max-width: 200px; /* Optional: Set a maximum width for better responsiveness */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .certificate-card {
+        width: calc(100% / 3 - 20px); /* 3 cards per row on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .certificate-card {
+        width: calc(100% / 2 - 20px); /* 2 cards per row on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .certificate-card {
+        width: 100%; /* 1 card per row on mobile */
+    }
+}
