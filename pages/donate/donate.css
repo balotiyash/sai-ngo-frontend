@@ -1,0 +1,39 @@
+/** 
+ * File: pages/donate/donate.css
+ * Author: Yash Balotiya
+ * Description: This file contains the css for the donate page.
+ * Created on: 16/03/2025
+ * Last Modified: 16/03/2025
+*/
+
+/* CSS for the donate page */
+main {
+    width: 100%;
+    display: flex;
+}
+
+.leftContainer {
+    width: 60%;
+    font-size: 14px;
+}
+
+.rightContainer {
+    width: 40%;
+    margin: 65px 20px 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.leftContainer,
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.accordion {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
