@@ -12,18 +12,6 @@ main {
     display: flex;
 }
 
-.leftContainer {
-    width: 60%;
-    font-size: 14px;
-}
-
-.rightContainer {
-    width: 40%;
-    margin: 65px 20px 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-}
-
 .leftContainer,
 .rightContainer {
     display: flex;
@@ -32,8 +20,56 @@ main {
     padding: 20px;
 }
 
+.leftContainer {
+    width: 75%;
+    font-size: 14px;
+}
+
+/* Left accordation */
 .accordion {
     width: 100%;
     border: 1px solid #ccc;
     margin-bottom: 30px;
+}
+
+/* Right side */
+.rightContainer {
+    width: 25%;
+    margin: 65px 20px 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.rightContainer p {
+    font-size: 14px;
+}
+
+.redText {
+    color: red;
+}
+
+form {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select, textarea {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Hide number spinner */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
