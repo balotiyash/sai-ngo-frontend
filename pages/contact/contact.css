@@ -1,0 +1,90 @@
+/** 
+ * File: pages/contact/contact.css
+ * Author: Yash Balotiya
+ * Description: This file contains the css for the contact page.
+ * Created on: 16/03/2025
+ * Last Modified: 16/03/2025
+*/
+
+/* Contact Page CSS */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* Map Section */
+.mapSection {
+    width: 75%;
+    height: 500px;
+}
+
+.mapSection iframe {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+.formSection {
+    width: 75%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.formSection div {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.formSection h3 {
+    color: #f38232;
+}
+
+.formSection p {
+    margin: 0;
+}
+
+.contactSpan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 8px 0;
+}
+
+.icons {
+    margin: 0;
+}
+
+/* Right side form */
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f38232;
+    border-radius: 5px;
+    outline: none;
+}
+
+.formDiv button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f38232;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
