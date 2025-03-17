@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This is the about page of the website.
     Created on: 15/03/2025
-    Last Modified: 15/03/2025
+    Last Modified: 17/03/2025
 -->
 
 <!DOCTYPE html>
@@ -19,6 +19,7 @@
     <!-- Main Stylesheets -->
     <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./achievements.css">
+    <link rel="stylesheet" href="./responsive.css">
 </head>
 
 <body>

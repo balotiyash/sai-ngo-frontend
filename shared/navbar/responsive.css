@@ -1,0 +1,71 @@
+/*
+    File: shared/navbar/responsive.css
+    Author: Yash Balotiya
+    Description: This file contains styling part of Navbar for responsive design.
+    Created on: 17/03/2025
+    Last Modified: 17/03/2025
+*/
+
+@media (max-width: 1200px) {
+    nav a,
+    .navLinks a {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 920px) {
+    nav a,
+    .navLinks a {
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .sidebar li {
+        margin: 12px 0;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    nav {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navDonateBtn {
+        margin: 0 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    #navbar-logo {
+        width: 70vw;
+    }
+
+    .one a,
+    .menu-button a {
+        padding: 0;
+    }
+
+    .menu-button {
+        padding-right: 20px;
+    }
+}

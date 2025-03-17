@@ -40,10 +40,13 @@ nav ul,
     border: none;
     margin-right: 20px;
     transition: 0.2s ease-in-out all;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .navDonateBtn:hover {
     background-color: #ffa334;
+    color: white;
 }
 
 .navLinks {
@@ -126,7 +129,7 @@ nav a,
     align-items: center;
     color: white;
     transition: 0.2s ease-in-out all;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navLinks ul li {
@@ -171,54 +174,4 @@ nav li:first-child {
 
 .menu-button {
     display: none;
-}
-
-@media(max-width: 750px) {
-    .sidebar {
-        width: 100%;
-    }
-
-    .menu-button {
-        display: block;
-    }
-
-    .sidebar li {
-        margin: 12px 0;
-    }
-
-    .hideOnMobile {
-        display: none;
-    }
-
-    .menu-button {
-        display: block;
-    }
-
-    .navLinks {
-        display: none;
-    }
-
-    nav {
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .navDonateBtn {
-        margin: 0 30px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-    #navbar-logo {
-        width: 70vw;
-    }
-
-    .one a,
-    .menu-button a {
-        padding: 0;
-    }
-
-    .menu-button {
-        padding-right: 20px;
-    }
 }

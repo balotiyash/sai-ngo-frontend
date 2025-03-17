@@ -43,6 +43,18 @@
             display: flex;
             justify-content: center;
         }
+
+        @media (max-width: 900px) {
+            section {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 750px) {
+            .accordion-body div img {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 
@@ -71,14 +83,14 @@
                             <h3>Apani Duniya – A Village for Orphans & destitute Women</h3>
                             <p>November 18, 2017 - Admin</p>
 
-                            <p><b>We have purchased a land consisting of 13.5 acres it is surrounded by mountains with full greenery & having continues flow of running water through a revolute at Kuhe Village, District-Thane. We have proposed to set up “ Apani Duniya” ( “Our Universe) of Orphans, destitute Women,  Old aged, tribal people & members of SAI family.</b></p>
+                            <p><b>We have purchased a land consisting of 13.5 acres it is surrounded by mountains with full greenery & having continues flow of running water through a revolute at Kuhe Village, District-Thane. We have proposed to set up “ Apani Duniya” ( “Our Universe) of Orphans, destitute Women, Old aged, tribal people & members of SAI family.</b></p>
 
                             <p><b>Shortly we will be executing our activities for the setting up the followings:-</b></p>
 
                             <ul>
-                                <li>Free shelter for Orphans- We have come across the cases where the mothers belonging to sex worker community & parents are dying due to AIDS, Re-marriage of deserted / widowed / divorce women, absence of love and security in the families, Family disputes, Unwanted pregnancy of Trafficking / Sexually exploited girls; these orphan and street children are left without care and support.  Hence to prevent them from involving into anti-social & criminal activities such as drug trafficking, child prostitution, theft etc, therefore to bring into mainstream of the society by providing education & create conducive atmosphere to develop their carrier for better future.  There will be separate shelters for boys & girls each will be of 20 no. aggregating to 40 numbers.</li>
+                                <li>Free shelter for Orphans- We have come across the cases where the mothers belonging to sex worker community & parents are dying due to AIDS, Re-marriage of deserted / widowed / divorce women, absence of love and security in the families, Family disputes, Unwanted pregnancy of Trafficking / Sexually exploited girls; these orphan and street children are left without care and support. Hence to prevent them from involving into anti-social & criminal activities such as drug trafficking, child prostitution, theft etc, therefore to bring into mainstream of the society by providing education & create conducive atmosphere to develop their carrier for better future. There will be separate shelters for boys & girls each will be of 20 no. aggregating to 40 numbers.</li>
 
-                                <li>Free Shelter for destitute Women – From our experience of two & half decades we have observed that whenever female sex workers develop with AIDS they become unable to earn money & disowned by the brothel authorities & left to die on the roads in a very pathetic condition. Similar situation is arising in some cases of the women whose husband die due to AIDS & disowned by in-laws. Therefore to protect them & to make them economically independent we shall provide them vocational training such as agro farming, horti/floriculture, aquaculture, animal husbandry etc.  These women shall play the role of mothers for orphans as stated above.</li>
+                                <li>Free Shelter for destitute Women – From our experience of two & half decades we have observed that whenever female sex workers develop with AIDS they become unable to earn money & disowned by the brothel authorities & left to die on the roads in a very pathetic condition. Similar situation is arising in some cases of the women whose husband die due to AIDS & disowned by in-laws. Therefore to protect them & to make them economically independent we shall provide them vocational training such as agro farming, horti/floriculture, aquaculture, animal husbandry etc. These women shall play the role of mothers for orphans as stated above.</li>
 
                                 <li>Shelter for old aged- We wish to set up unique home for old aged who have been disowned by their children or nobody is to look after them or ailing & nobody is there to take care of them.</li>
                             </ul>
@@ -173,41 +185,41 @@
                             <h3>Cancer Aid Cell</h3>
                             <p>January 1, 2003 - Admin</p>
 
-                            <p>SAI  has  since  2013   taken  additional  responsibility  of  providing  support  to  the  poor  and  needy  cancer Patients  for  their  medical  treatment  over  and  above  its  other  activities. We  have  observed  that  the  number  of  cancer  patients  in the world  are  increasing  every  year  and  the poor  and   needy  patients  are  losing  their  lives  due  to  the  lack  of  Medical ,nutritional  support and also due  to the  unawareness  about  the  disease.  The  mortality  rate of  cancer  in the developed  countries  is   Comparatively  lesser  than  under developing  countries  like  ours.  Hence  initially  we  have  started  providing  financial  help  to  all  such  patients  irrespective of  age for  their  cancer treatment</p>
+                            <p>SAI has since 2013 taken additional responsibility of providing support to the poor and needy cancer Patients for their medical treatment over and above its other activities. We have observed that the number of cancer patients in the world are increasing every year and the poor and needy patients are losing their lives due to the lack of Medical ,nutritional support and also due to the unawareness about the disease. The mortality rate of cancer in the developed countries is Comparatively lesser than under developing countries like ours. Hence initially we have started providing financial help to all such patients irrespective of age for their cancer treatment</p>
 
-                            <p>However  we  have  now  focused  our  support  to  the poor  kids  patient  because the mortality  rate of  the  cancer patient  children  in  developing  country  like ours  is  1 death  for every  3 minutes  which  is very  much tragic  and  painful  hence  protection  for  them  is  essential. Further  every  child  has  right  to  have  good  health  and  care  for   happy life  If  we  extend  proper  and  timely  help  to  the  kids  patients  they  will  be  cured  and  live  happy  life  and  contribute  to  the  nation  building  activity. The ultimate  goal  for  caring  cancer  kids is to give  high quality health care services for  their  betterment. Since  2013 we  have  helped  to 133 cancer patients  consisting  of  all  ages and  more  than  50%  of   the  same  were  poor  kids. The  kids  are taking  the  treatment  in reputed   hospitals  of  Mumbai  like  TATA  MEMORIAL, WADIA  etc.</p>
+                            <p>However we have now focused our support to the poor kids patient because the mortality rate of the cancer patient children in developing country like ours is 1 death for every 3 minutes which is very much tragic and painful hence protection for them is essential. Further every child has right to have good health and care for happy life If we extend proper and timely help to the kids patients they will be cured and live happy life and contribute to the nation building activity. The ultimate goal for caring cancer kids is to give high quality health care services for their betterment. Since 2013 we have helped to 133 cancer patients consisting of all ages and more than 50% of the same were poor kids. The kids are taking the treatment in reputed hospitals of Mumbai like TATA MEMORIAL, WADIA etc.</p>
 
-                            <p>Presently  10 kids cancer patients  are  taking  the  treatment  in these  Hospitals  and more  than 25 kids  have cured  from  this  disease during  the last  3 years. Our active efforts  are  on to  bring  more  number  of  deserving   kids  patients    under  our  help for  their better  future  and happy  life.</p>
+                            <p>Presently 10 kids cancer patients are taking the treatment in these Hospitals and more than 25 kids have cured from this disease during the last 3 years. Our active efforts are on to bring more number of deserving kids patients under our help for their better future and happy life.</p>
 
-                            <p><b>Following  Kids  are  under Treatment-</b></p>
+                            <p><b>Following Kids are under Treatment-</b></p>
                             <ol>
-                                <li>Shrivardhan  Atugade</li>
-                                <li>Payal  Mahale</li>
-                                <li>Mohd. Shahid  Shaikh</li>
-                                <li>Tushar  Panpatil</li>
-                                <li>Veer  Mahale</li>
-                                <li>Maithile  Parmar</li>
+                                <li>Shrivardhan Atugade</li>
+                                <li>Payal Mahale</li>
+                                <li>Mohd. Shahid Shaikh</li>
+                                <li>Tushar Panpatil</li>
+                                <li>Veer Mahale</li>
+                                <li>Maithile Parmar</li>
                                 <li>Rihansh Shetty</li>
-                                <li>Divya  Gupta</li>
-                                <li>Laxmikumari  Yadav</li>
-                                <li>Sameeksha  Bhise</li>
+                                <li>Divya Gupta</li>
+                                <li>Laxmikumari Yadav</li>
+                                <li>Sameeksha Bhise</li>
                             </ol>
 
                             <br>
 
-                            <p><b>Follwing   Kids  Treament  is  completed/ Cured</b></p>
+                            <p><b>Follwing Kids Treament is completed/ Cured</b></p>
                             <ol>
-                                <li>Sujan  Moinuddin</li>
-                                <li>Sana  Matin Shaikh</li>
-                                <li>Ayesha  Pathan</li>
-                                <li>Raj  Arun Limje</li>
-                                <li>Alfaiz  Imran Chowkar</li>
+                                <li>Sujan Moinuddin</li>
+                                <li>Sana Matin Shaikh</li>
+                                <li>Ayesha Pathan</li>
+                                <li>Raj Arun Limje</li>
+                                <li>Alfaiz Imran Chowkar</li>
                                 <li>Payal Tuna Pradhan</li>
-                                <li>Dewang  Ankush Dabde</li>
-                                <li>Vedansh  Nichkola</li>
-                                <li>Shreya  Lende</li>
-                                <li>Amra  Chandija</li>
-                                <li>Dewang  Dubey</li>
+                                <li>Dewang Ankush Dabde</li>
+                                <li>Vedansh Nichkola</li>
+                                <li>Shreya Lende</li>
+                                <li>Amra Chandija</li>
+                                <li>Dewang Dubey</li>
                             </ol>
                         </div>
                     </div>

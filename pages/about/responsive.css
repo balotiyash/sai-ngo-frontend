@@ -1,0 +1,30 @@
+/** 
+ * File: pages/about/responsive.css
+ * Author: Yash Balotiya
+ * Description: This file contains the css for the about page for responsive design.
+ * Created on: 17/03/2025
+ * Last Modified: 17/03/2025
+*/
+
+@media (max-width: 900px) {
+    section {
+        width: 90%;
+    }
+
+    .achievement {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .achievement img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .teamMembers {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}

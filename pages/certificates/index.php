@@ -3,7 +3,7 @@
     Author: Atharv Mirgal
     Description: This file is the main page for the certificates section of the website.
     Created on: 16/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 17/03/2025
 -->
 
 <!DOCTYPE html>
@@ -30,7 +30,6 @@
         <!-- Certificates -->
         <div class="certificates">
 
-        </div>
         </div>
     </section>
 

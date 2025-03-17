@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the css for the contact page.
  * Created on: 16/03/2025
- * Last Modified: 16/03/2025
+ * Last Modified: 17/03/2025
 */
 
 /* Contact Page CSS */
@@ -87,4 +87,20 @@ input[type="text"], input[type="email"], textarea {
     color: white;
     cursor: pointer;
     outline: none;
+}
+
+/* Responsiveness */
+@media (max-width: 800px) {
+    .formSection {
+        flex-direction: column;
+    }
+
+    .formSection div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .formDiv h3 {
+        margin-top: 50px;
+    }
 }

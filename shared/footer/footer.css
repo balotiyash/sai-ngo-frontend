@@ -3,7 +3,7 @@
  * Author: Yash Balotiya
  * Description: This file contains the css for the footer component.
  * Created on: 16/03/2025
- * Last Modified: 16/03/2025
+ * Last Modified: 17/03/2025
 */
 
 /* Main Footer */
@@ -95,4 +95,55 @@ footer {
     font-size: 14px;
     margin-top: 20px;
     text-align: center;
+}
+
+/* Responsiveness */
+@media (max-width: 1100px) {
+    .child1 {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .hdivider {
+        width: 90%;
+    }
+
+    .contactDiv {
+        width: 30%;
+    }
+
+    .links {
+        width: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .child1 {
+        /* flex-direction: column; */
+        justify-content: center;
+        /* align-items: center; */
+        flex-wrap: wrap;
+    }
+
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactDiv {
+        width: 100%;
+    }
+
+    .child2 {
+        gap: 20px;
+        flex-direction: column;
+        /* justify-content: start; */
+        align-items: center;
+    }
 }
