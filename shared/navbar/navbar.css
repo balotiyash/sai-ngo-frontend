@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This file contains styling part of Navbar.
     Created on: 15/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 17/03/2025
 */
 
 header {
@@ -53,6 +53,8 @@ nav ul,
     align-items: center;
     background-color: #f38232;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Ensure relative positioning for absolute children */
 }
 
 .navLinks ul {
@@ -61,7 +63,58 @@ nav ul,
     margin: 0;
     padding: 0;
     height: 100%;
-    transition: 0.2s ease-in-out all;
+}
+
+.navLinks li {
+    position: relative;
+    /* Position relative for dropdowns */
+}
+
+.navLinks .eventList,
+.navLinks .projectList {
+    display: none;
+    /* Hide dropdowns by default */
+    position: absolute;
+    /* Position dropdowns absolutely */
+    /* background-color: #333; */
+    /* Background color for dropdowns */
+    min-width: 160px;
+    /* Minimum width for dropdowns */
+    z-index: 1;
+    /* Ensure dropdowns are above other content */
+}
+
+.eventList li,
+.projectList li {
+    background-color: #f38232;
+}
+
+.navLinks li:hover .eventList,
+.navLinks li:hover .projectList {
+    display: block;
+    /* Show dropdowns on hover */
+}
+
+.navLinks .eventList li,
+.navLinks .projectList li {
+    float: none;
+    /* Reset float for dropdown items */
+}
+
+.navLinks .eventList li a,
+.navLinks .projectList li a {
+    padding: 12px 16px;
+    /* Padding for dropdown links */
+    text-align: left;
+    /* Align text to the left */
+    color: white;
+    /* Text color for dropdown links */
+}
+
+.navLinks .eventList li a:hover,
+.navLinks .projectList li a:hover {
+    /* background-color: #575757; */
+    /* Background color on hover for dropdowns */
 }
 
 nav a,
@@ -73,7 +126,7 @@ nav a,
     align-items: center;
     color: white;
     transition: 0.2s ease-in-out all;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navLinks ul li {
@@ -83,7 +136,8 @@ nav a,
 
 /* Add hover effect to each li */
 .navLinks ul li:hover {
-    background-color: #e0672d; /* change this to any color you want */
+    background-color: #e0672d;
+    /* change this to any color you want */
 }
 
 nav li:first-child {
@@ -168,4 +222,3 @@ nav li:first-child {
         padding-right: 20px;
     }
 }
-

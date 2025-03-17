@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This file contains the code for the navigation bar of the website.
     Created on: 15/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 17/03/2025
 -->
 
 <!-- Header Navbar -->
@@ -16,17 +16,18 @@
                         <path
                             d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
                     </svg> </a></li>
-            <li><a class="navDonateBtn">Donate</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li>
+            <li><a href="../../">Home</a></li>
+            <li><a href="../about">About Us</a></li>
+            <li><a href="../certificates">Certificates</a></li>
             <li><a href="../../pages/events/index.php?category=Upcoming">Upcoming Events</a></li>
             <li><a href="../../pages/events/index.php?category=Current">Current Events</a></li>
             <li><a href="../../pages/events/index.php?category=Past">Past Events</a></li>
-            </li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="../news">News</a></li>
+            <li><a href="../projects/past.php">Past Projects</a></li>
+            <li><a href="../projects/current.php">Current Projects</a></li>
+            <li><a href="../cancer-aids">Cancer AIDS Cell</a></li>
+            <li><a href="../apni-duniya">Apani Duniya</a></li>
+            <li><a href="../contact">Contact Us</a></li>
         </ul>
 
         <!-- Desktop -->
@@ -46,17 +47,30 @@
 
     <div class="navLinks">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="../../">Home</a></li>
+            <li><a href="../about">About Us</a></li>
+            <li><a href="../certificates">Certificates</a></li>
             <li>
-            <li><a href="../../pages/events/index.php?category=Upcoming">Upcoming Events</a></li>
-            <li><a href="../../pages/events/index.php?category=Current">Current Events</a></li>
-            <li><a href="../../pages/events/index.php?category=Past">Past Events</a></li>
+                <a href="#">Events</a>
+                <ul class="eventList">
+                    <li><a href="../../pages/events/index.php?category=Upcoming">Upcoming Events</a></li>
+                    <li><a href="../../pages/events/index.php?category=Current">Current Events</a></li>
+                    <li><a href="../../pages/events/index.php?category=Past">Past Events</a></li>
+                </ul>
             </li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="../news">News</a></li>
+            <li>
+                <a href="#">Projects</a>
+                <ul class="projectList">
+                    <li><a href="../projects/past.php">Past Projects</a></li>
+                    <li><a href="../projects/current.php">Current Projects</a></li>
+                </ul>
+            </li>
+            <li><a href="../cancer-aids">Cancer AIDS Cell</a></li>
+            <li><a href="../apni-duniya">Apani Duniya</a></li>
+            <li><a href="../contact">Contact Us</a></li>
         </ul>
+    </div>
 </header>
 
 <!-- Script to handle logic -->
