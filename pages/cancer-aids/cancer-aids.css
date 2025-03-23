@@ -1,0 +1,172 @@
+/** 
+ * File: pages/cancer-aids/cancer-aids.css
+ * Author: Atharv Mirgal
+ * Description: CSS file for the Cancer and AIDS page
+ * Created on: 23/03/2025
+ * Last Modified: 23/03/2025
+*/
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+    align-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    width: 90%;
+    text-align: justify;
+    font-size: 16px;
+    color: #555;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.subtitle {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 22%;
+    min-width: 200px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.read-more {
+    background: #f38232;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #0056b3;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 22%;
+    min-width: 200px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.read-more {
+    background: #f38232;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #f38232;
+}
