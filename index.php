@@ -37,12 +37,58 @@
     <!-- Main Content -->
 
     <!-- Hero Image -->
-    <div class="hero-image">
+    <!-- <div class="hero-image">
         <div class="hero-text">
             <h1>SAI NGO</h1>
             <p>Our Moto - Human Care</p>
         </div>
+    </div> -->
+
+    <!-- Hero Image Slider -->
+    <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="hero-image" style="background-image: url('./assets/home/heroImg1.jpg');">
+                    <div class="hero-text">
+                        <h1>SAI NGO</h1>
+                        <p>Our Moto - Human Care</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="hero-image" style="background-image: url('./assets/home/heroImg2.jpg');">
+                    <div class="hero-text">
+                        <h1>WE NEED YOUR HELP</h1>
+                        <p>YOU CAN MAKE DIFFERENCE BY DONATING IN THE LIFE OF NEEDY. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="hero-image" style="background-image: url('./assets/home/heroImg3.jpg');">
+                    <div class="hero-text">
+                        <h1>Hollywood & Bollywood Actress Priyanka Chopra Supporting Sai</h1>
+                        <p>We Need Your Help. You Can Make Difference By Donating In The Life Of Needy.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+                <div class="hero-image" style="background-image: url('./assets/home/heroImg4.jpg');">
+                    <div class="hero-text">
+                        <h1>Bollywood Actor Anant Jog Supporting Sai</h1>
+                        <p>We Need Your Help. You Can Make Difference By Donating In The Life Of Needy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Swiper Pagination (Dots) -->
+        <div class="swiper-pagination"></div>
     </div>
+
 
     <!-- Mission Section -->
     <div class="mission-section">
@@ -185,6 +231,21 @@
                 768: { slidesPerView: 3 }, // Tablets
                 480: { slidesPerView: 2 }, // Mobile
                 300: { slidesPerView: 1 }
+            }
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        new Swiper('.hero-slider', {
+            effect: "fade", // Smooth fade transition
+            autoplay: {
+                delay: 4000, // Auto-slide every 4s
+                disableOnInteraction: false,
+            },
+            loop: true, // Infinite looping
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true, // Allow clicking dots
             }
         });
     });
