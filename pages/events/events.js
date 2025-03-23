@@ -1,5 +1,5 @@
 /** 
- * File: pages/about/events.js
+ * File: pages/events/events.js
  * Author: Atharv Mirgal
  * Description: This script file is used to dynamically add events to the events page.
  * Created on: 16/03/2025

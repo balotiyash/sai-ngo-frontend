@@ -1,3 +1,11 @@
+/** 
+ * File: pages/news/news.js
+ * Author: Atharv Mirgal
+ * Description: This script file is used to dynamically add news to the news page.
+ * Created on: 17/03/2025
+ * Last Modified: 23/03/2025
+*/
+
 import { news } from './news-data.js';
 
 window.addEventListener('DOMContentLoaded', () => {
