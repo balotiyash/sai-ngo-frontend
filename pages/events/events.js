@@ -1,5 +1,5 @@
 /** 
- * File: pages/about/events.js
+ * File: pages/events/events.js
  * Author: Atharv Mirgal
  * Description: This script file is used to dynamically add events to the events page.
  * Created on: 16/03/2025
@@ -50,7 +50,7 @@ function displayEvents(status) {
             <div class="event-date">${eventDate}</div>
             <h2>${event.title}</h2>
             <p>${trimmedDescription}</p>
-            <a href="event-details.html?id=${event.id}" class="read-more">Read More</a>
+            <a href="event-details.php?id=${event.id}" class="read-more">Read More</a>
         `;
 
         eventsContainer.appendChild(eventCard);
