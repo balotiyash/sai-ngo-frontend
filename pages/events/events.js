@@ -50,7 +50,7 @@ function displayEvents(status) {
             <div class="event-date">${eventDate}</div>
             <h2>${event.title}</h2>
             <p>${trimmedDescription}</p>
-            <a href="event-details.html?id=${event.id}" class="read-more">Read More</a>
+            <a href="event-details.php?id=${event.id}" class="read-more">Read More</a>
         `;
 
         eventsContainer.appendChild(eventCard);

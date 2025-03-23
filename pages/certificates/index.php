@@ -149,7 +149,7 @@
             // Wait for the new window to load, then apply zoom
             if (newWindow) {
                 newWindow.onload = () => {
-                    newWindow.document.body.style.zoom = "200%"; // Zoom to 200%
+                    newWindow.document.body.style.zoom = "100%";
                 };
             }
         });
