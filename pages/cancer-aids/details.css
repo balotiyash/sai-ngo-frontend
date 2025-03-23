@@ -1,11 +1,12 @@
-/* Container Layout */
+/* General Container Layout */
 .content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 20px;
+    gap: 20px;
 }
 
 /* Left Section (Profile + Report) */
@@ -17,6 +18,7 @@
 /* Profile Card */
 .profile-card {
     display: flex;
+    flex-wrap: wrap; /* Allows content to adjust on small screens */
     align-items: center;
     background: #f8f8f8;
     padding: 20px;
@@ -26,16 +28,16 @@
 }
 
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: contain; /* Prevents cropping */
     margin-right: 15px;
 }
 
 .profile-details h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -52,6 +54,7 @@
 .report-img {
     width: 100%;
     max-width: 600px;
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -59,7 +62,7 @@
 /* Right Section (Comment Form) */
 .right-section {
     flex: 1;
-    max-width: 35%;
+    max-width: 40%;
     padding: 20px;
     background: #f9f9f9;
     border-radius: 10px;
@@ -71,6 +74,7 @@
     margin-bottom: 10px;
 }
 
+/* Form Styling */
 form {
     display: flex;
     flex-direction: column;
@@ -108,13 +112,63 @@ button:hover {
     background: #4a9563;
 }
 
-/* Responsive Design */
+/* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
     .content-wrapper {
-        flex-direction: column;
+        flex-direction: column; /* Stack sections */
+        gap: 10px;
     }
 
     .left-section, .right-section {
+        max-width: 100%; /* Full width */
+    }
+
+    .profile-card {
+        flex-direction: column; /* Stack profile image & details */
+        text-align: center;
+    }
+
+    .profile-img {
+        margin-bottom: 10px;
+    }
+
+    .report-img {
+        max-width: 100%; /* Make sure it scales down properly */
+    }
+
+    .right-section {
+        padding: 15px;
+    }
+}
+
+/* Tablet Responsiveness */
+@media screen and (max-width: 1000px) {
+    .content-wrapper {
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .left-section {
+        max-width: 100%; 
+    }
+
+    .profile-card {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .report-img {
+        max-width: 100%;
+    }
+
+    .right-section {
+        padding: 20px;
+        width: 100%;
         max-width: 100%;
     }
 }

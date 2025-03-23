@@ -21,6 +21,13 @@
 
     <!-- Scripts -->
     <script src="./main.js"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 </html>
 
 <body>
@@ -101,12 +108,22 @@
 
         <div class="partners-section">
             <h3>🔸 OUR PARTNERS</h3>
-            <div class="partners-logos">
-                <img src="./assets/home/partner1.jpg" alt="Partner 1">
-                <img src="./assets/home/partner2.jpg" alt="Partner 2">
-                <img src="./assets/home/partner3.jpg" alt="Partner 3">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/home/partner1.jpg" alt="Partner 1"></div>
+                    <div class="swiper-slide"><img src="./assets/home/partner2.jpg" alt="Partner 2"></div>
+                    <div class="swiper-slide"><img src="./assets/home/partner3.jpg" alt="Partner 3"></div>
+                    <div class="swiper-slide"><img src="./assets/home/partner1.jpg" alt="Partner 4"></div>
+                    <div class="swiper-slide"><img src="./assets/home/partner2.jpg" alt="Partner 5"></div>
+                    <div class="swiper-slide"><img src="./assets/home/partner3.jpg" alt="Partner 6"></div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
             </div>
         </div>
+
     </div>
 
     <!-- Projects Section -->
@@ -135,7 +152,7 @@
             </div>
 
             <!-- Project 3 -->
-            <div class="project-card" onclick="redirectTo('./events/index.php')"> 
+            <div class="project-card" onclick="redirectTo('./events/index.php')">
                 <img src="./assets/home/project2.png" alt="Cancer Aid Cell">
                 <div class="project-card-content">
                     <h3>Cancer Aid Cell</h3>
@@ -149,5 +166,28 @@
     <!-- Footer -->
     <?php include './shared/footer/footer.html'; ?>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new Swiper('.swiper-container', {
+            slidesPerView: 4, // Show 3 partners by default
+            spaceBetween: 20, // Space between slides
+            loop: true, // Infinite loop
+            autoplay: {
+                delay: 3000, // Auto-slide every 3s
+                disableOnInteraction: false, // Keep autoplay after interaction
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                1024: { slidesPerView: 4 }, // Desktop
+                768: { slidesPerView: 3 }, // Tablets
+                480: { slidesPerView: 2 }, // Mobile
+                300: { slidesPerView: 1 }
+            }
+        });
+    });
+</script>
 
 </html>
