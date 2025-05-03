@@ -3,7 +3,7 @@
     Author: Atharv Mirgal, Yash Balotiya
     Description: This file is the home page of the website. It contains a brief description of the website and its features.
     Created on: 23/03/2025
-    Last Modified: 23/03/2025
+    Last Modified: 02/05/2025
 -->
 
 <!DOCTYPE html>
@@ -27,26 +27,81 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
 </html>
 
 <body>
-    <!-- Navbar -->
-    <?php include './shared/navbar/navbar.html'; ?>
+    <!-- Header Navbar -->
+    <header>
+        <nav>
+            <!-- Mobile -->
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#5f6368" style="margin-top: 12px;">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg> </a></li>
+                <li><a class="nav-link1" href="./pages/donate" style="color: orange;"><b><big>Donate</big></b></a></li>
+                <li><a class="nav-link2" href="./">Home</a></li>
+                <li><a class="nav-link3" href="./pages/about">About Us</a></li>
+                <li><a class="nav-link4" href="./pages/certificates">Certificates</a></li>
+                <li><a class="nav-link5" href="./pages/events/index.php?category=Upcoming">Upcoming Events</a></li>
+                <li><a class="nav-link6" href="./pages/events/index.php?category=Current">Current Events</a></li>
+                <li><a class="nav-link7" href="./pages/events/index.php?category=Past">Past Events</a></li>
+                <li><a class="nav-link8" href="./pages/news">News</a></li>
+                <li><a class="nav-link9" href="./pages/projects/past.php">Past Projects</a></li>
+                <li><a class="nav-link10" href="./pages/projects/current.php">Current Projects</a></li>
+                <li><a class="nav-link11" href="./pages/cancer-aids">Cancer AIDS Cell</a></li>
+                <li><a class="nav-link12" href="./pages/other-projects">Apani Duniya</a></li>
+                <li><a class="nav-link13" href="./pages/contact">Contact Us</a></li>
+            </ul>
 
-    <!-- Main Content -->
+            <!-- Desktop -->
+            <ul class="navbar">
+                <li class="one"><a id="logoHref" href="./"><img id="navbar-logo" src="./assets/images/Banner.png" alt="Sai NGO Logo"
+                            id="navbar-logo"></a>
+                </li>
 
-    <!-- Hero Image -->
-    <!-- <div class="hero-image">
-        <div class="hero-text">
-            <h1>SAI NGO</h1>
-            <p>Our Moto - Human Care</p>
+                <li class="hideOnMobile"><a href="./pages/donate" class="navDonateBtn nav-link14">Donate</a></li>
+
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+
+        <div class="navLinks">
+            <ul>
+                <li><a class="nav-link15" href="./">Home</a></li>
+                <li><a class="nav-link16" href="./pages/about">About Us</a></li>
+                <li><a class="nav-link17" href="./pages/certificates">Certificates</a></li>
+                <li>
+                    <a href="#">Events</a>
+                    <ul class="eventList">
+                        <li><a class="nav-link18" href="./pages/events/index.php?category=Upcoming">Upcoming Events</a></li>
+                        <li><a class="nav-link19" href="./pages/events/index.php?category=Current">Current Events</a></li>
+                        <li><a class="nav-link20" href="./pages/events/index.php?category=Past">Past Events</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link21" href="./pages/news">News</a></li>
+                <li>
+                    <a href="#">Projects</a>
+                    <ul class="projectList">
+                        <li><a class="nav-link22" href="./pages/projects/past.php">Past Projects</a></li>
+                        <li><a class="nav-link23" href="./pages/projects/current.php">Current Projects</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link24" href="./pages/cancer-aids">Cancer AIDS Cell</a></li>
+                <li><a class="nav-link25" href="./pages/other-projects">Apani Duniya</a></li>
+                <li><a class="nav-link26" href="./pages/contact">Contact Us</a></li>
+            </ul>
         </div>
-    </div> -->
+    </header>
 
     <!-- Hero Image Slider -->
     <div class="swiper hero-slider">
         <div class="swiper-wrapper">
+
             <!-- Slide 1 -->
             <div class="swiper-slide">
                 <div class="hero-image" style="background-image: url('./assets/home/heroImg1.jpg');">
@@ -56,6 +111,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Slide 2 -->
             <div class="swiper-slide">
                 <div class="hero-image" style="background-image: url('./assets/home/heroImg2.jpg');">
@@ -65,6 +121,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Slide 3 -->
             <div class="swiper-slide">
                 <div class="hero-image" style="background-image: url('./assets/home/heroImg3.jpg');">
@@ -74,6 +131,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Slide 4 -->
             <div class="swiper-slide">
                 <div class="hero-image" style="background-image: url('./assets/home/heroImg4.jpg');">
@@ -163,10 +221,6 @@
                     <div class="swiper-slide"><img src="./assets/home/partner2.jpg" alt="Partner 5"></div>
                     <div class="swiper-slide"><img src="./assets/home/partner3.jpg" alt="Partner 6"></div>
                 </div>
-
-                <!-- Navigation Buttons -->
-                <!-- <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div> -->
             </div>
         </div>
 
@@ -178,7 +232,7 @@
 
         <div class="project-cards">
             <!-- Project 1 -->
-            <div class="project-card" onclick="redirectTo('./events/index.php')">
+            <div class="project-card" onclick="redirectTo('./pages/other-projects')">
                 <img src="./assets/home/project1.png" alt="Apani Duniya">
                 <div class="project-card-content">
                     <h3>Apani Duniya – A Village for Orphans</h3>
@@ -188,7 +242,7 @@
             </div>
 
             <!-- Project 2 -->
-            <div class="project-card" onclick="redirectTo('./events/index.php')">
+            <div class="project-card" onclick="redirectTo('./pages/other-projects')">
                 <img src="./assets/home/project2.png" alt="AIDS Project">
                 <div class="project-card-content">
                     <h3>AIDS Project</h3>
@@ -198,8 +252,8 @@
             </div>
 
             <!-- Project 3 -->
-            <div class="project-card" onclick="redirectTo('./events/index.php')">
-                <img src="./assets/home/project2.png" alt="Cancer Aid Cell">
+            <div class="project-card" onclick="redirectTo('./pages/other-projects')">
+                <img src="./assets/images/cancer-360x300.png" alt="Cancer Aid Cell">
                 <div class="project-card-content">
                     <h3>Cancer Aid Cell</h3>
                     <span class="date">January 1, 2003</span>
@@ -213,7 +267,7 @@
     <?php include './shared/footer/footer.html'; ?>
 </body>
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         new Swiper('.swiper-container', {
             slidesPerView: 4, // Show 3 partners by default
             spaceBetween: 20, // Space between slides
@@ -227,15 +281,23 @@
                 prevEl: '.swiper-button-prev',
             },
             breakpoints: {
-                1024: { slidesPerView: 4 }, // Desktop
-                768: { slidesPerView: 3 }, // Tablets
-                480: { slidesPerView: 2 }, // Mobile
-                300: { slidesPerView: 1 }
+                1024: {
+                    slidesPerView: 4
+                }, // Desktop
+                768: {
+                    slidesPerView: 3
+                }, // Tablets
+                480: {
+                    slidesPerView: 2
+                }, // Mobile
+                300: {
+                    slidesPerView: 1
+                }
             }
         });
     });
 
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         new Swiper('.hero-slider', {
             effect: "fade", // Smooth fade transition
             autoplay: {

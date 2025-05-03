@@ -1,21 +1,30 @@
 <!-- 
     File: pages/events/event-details.php
-    Author: Atharv Mirgal
+    Author: Atharv Mirgal, Yash Balotiya
     Description: This file contains structure of the event details page.
     It displays the event image, title, description, date, status and a button to add the event to Google Calendar.
     Created on: 16/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 02/05/2025
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Tab Details -->
     <title>Event Details</title>
+
+    <!-- Meta Data -->
+    <?php include '../../shared/metaText.html'; ?>
+
+    <!-- Main Stylesheets -->
     <link rel="stylesheet" href="./event-details.css">
 </head>
 
 <body>
+
+    <!-- Header -->
+     <?php include '../../shared/navbar/navbar.html'; ?>
 
     <!-- Event Image -->
     <div class="event-banner">
@@ -40,6 +49,9 @@
         <!-- Back to Events -->
         <a href="index.php" class="back-button">⬅ Back to Events</a>
     </div>
+
+    <!-- Footer -->
+    <?php include '../../shared/footer/footer.html'; ?>
 
     <!-- Event Details Script -->
     <script type="module" src="event-details.js"></script>

@@ -230,6 +230,12 @@
 
     <!-- Footer -->
     <?php include '../../shared/footer/footer.html'; ?>
+
+    <script>
+        document.getElementById('accordionExample').addEventListener('click', () => {
+            scrollTo(0, 0);
+        });
+    </script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This file contains the contact page of the website.
     Created on: 16/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 02/05/2025
 -->
 
 <!DOCTYPE html>
@@ -30,7 +30,7 @@
 
         <!-- Form -->
         <section class="formSection">
-            
+
             <!-- Left Side -->
             <div>
                 <span>
@@ -68,7 +68,7 @@
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="text" name="subject" placeholder="Subject" required>
                 <textarea name="message" placeholder="Message" required></textarea>
-                <button type="submit">Send</button>
+                <button type="submit" onclick="sendMail()">Send</button>
             </div>
         </section>
 
@@ -80,6 +80,23 @@
 
     <!-- Footer -->
     <?php include '../../shared/footer/footer.html'; ?>
+
+    <!-- Script -->
+    <script>
+        function sendMail() {
+            const name = document.querySelector('input[name="name"]').value;
+            const email = document.querySelector('input[name="email"]').value;
+            const subject = document.querySelector('input[name="subject"]').value;
+            const message = document.querySelector('textarea[name="message"]').value;
+
+            if (name && email && subject && message) {
+                const mailtoLink = `mailto:info@saingo.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)}`;
+                window.location.href = mailtoLink;
+            } else {
+                alert("Please fill in all fields.");
+            }
+        }
+    </script>
 </body>
 
 </html>

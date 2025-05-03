@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This file contains the donation form.
     Created on: 16/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 02/05/2025
 -->
 
 <section class="rightContainer">
@@ -22,7 +22,7 @@
     <p class="redText">( * ) This fields are Mandatory</p>
 
     <!-- Donation Form -->
-    <form>
+    <form onsubmit="return false;" id="donationForm" name="donationForm">
         <!-- Amount -->
         <label for="amount">Amount: <span class="redText">*</span></label>
         <input type="number" id="amount" name="amount" required>
@@ -253,31 +253,33 @@
 
         <!-- Nationality -->
         <label for="nationality">Nationality: <span class="redText">*</span></label>
-        <input type="text" id="" />
+        <input type="text" id="nationality" />
 
         <!-- Sex -->
         <label for="sex">Sex <span class="redText">*</span></label>
-        <input type="text" name="" id="">
+        <input type="text" name="" id="sex">
 
         <!-- DOB -->
         <label for="dob">DOB <span class="redText">*</span></label>
-        <input type="date" name="" id="">
+        <input type="date" name="" id="dob">
 
         <!-- Highest Qualification -->
         <label for="highest_qualification">Highest Qualification <span class="redText">*</span></label>
-        <input type="text" name="" id="">
+        <input type="text" name="" id="highest_qualification">
 
         <br><br>
 
         <big><b>Question and Answers</b></big>
 
-        <label for="">1. Your Message /Feelings towards Patient and about us?</label>
-        <textarea name="" id=""></textarea>
+        <label for="qno1">1. Your Message /Feelings towards Patient and about us?</label>
+        <textarea name="" id="qno1"></textarea>
 
-        <label for="">2. What Motivated you for <b>Social Activities Integration (SAI)?</b></label>
-        <textarea name="" id=""></textarea>
+        <label for="qno2">2. What Motivated you for <b>Social Activities Integration (SAI)?</b></label>
+        <textarea name="" id="qno2"></textarea>
 
-        <label for="">3. Are you associated with Medical / Social Field?</label>
-        <textarea name="" id=""></textarea>
+        <label for="qno3">3. Are you associated with Medical / Social Field?</label>
+        <textarea name="" id="qno3"></textarea>
+
+        <input type="submit" value="Submit" class="navDonateBtn" onclick="sendMail()">
     </form>
 </section>

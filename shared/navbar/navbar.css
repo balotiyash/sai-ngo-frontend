@@ -3,7 +3,7 @@
     Author: Yash Balotiya
     Description: This file contains styling part of Navbar.
     Created on: 15/03/2025
-    Last Modified: 17/03/2025
+    Last Modified: 02/05/2025
 */
 
 header {
@@ -83,7 +83,7 @@ nav ul,
     /* Background color for dropdowns */
     min-width: 160px;
     /* Minimum width for dropdowns */
-    z-index: 1;
+    z-index: 10;
     /* Ensure dropdowns are above other content */
 }
 

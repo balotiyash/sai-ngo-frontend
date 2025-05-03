@@ -1,9 +1,9 @@
 /** 
  * File: pages/about/event-details.css
- * Author: Atharv Mirgal
+ * Author: Atharv Mirgal, Yash Balotiya
  * Description: CSS file for Events Details in Event Page.
  * Created on: 16/03/2025
- * Last Modified: 16/03/2025
+ * Last Modified: 02/05/2025
 */
 
 body {
@@ -37,7 +37,6 @@ h1 {
 p {
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
 }
 
 .add-to-calendar {
@@ -49,10 +48,12 @@ p {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background 0.3s ease;
 }
 
 .add-to-calendar:hover {
     background: #0056b3;
+    color: white;
 }
 
 .event-details {
@@ -82,8 +83,10 @@ p {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background 0.3s ease;
 }
 
 .back-button:hover {
     background: #c42e2e;
+    color: white;
 }

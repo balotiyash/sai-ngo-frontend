@@ -5,7 +5,7 @@
     It contains the accordion to display the details of the board members. The data for the accordion items is defined in the script tag.
     The script tag contains a function to generate the accordion dynamically using the data defined in the script.
     Created on: 15/03/2025
-    Last Modified: 16/03/2025
+    Last Modified: 02/05/2025
 -->
 
 <!-- Board Members Section -->
@@ -170,6 +170,13 @@
             accordionItem.appendChild(accordionCollapse);
 
             accordionContainer.appendChild(accordionItem);
+        });
+
+        accordionContainer.addEventListener('click', () => {
+            scrollTo({
+                top: accordionContainer.offsetTop - 10,
+                behavior: 'smooth'
+            });
         });
     }
 
