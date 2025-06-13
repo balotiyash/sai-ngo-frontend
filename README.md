@@ -72,9 +72,9 @@ This website provides a clean and intuitive interface to showcase Sai NGO’s mi
 
 ## 🧑‍💻 Developer Info
 
-**Developed by:** AlgoDevOpss by Yash Balotiya
-**Email:** balotiyash@gmail.com
-**GitHub:** [balotiyash](https://github.com/balotiyash/)  
+**Developed by:** AlgoDevOpss by Yash Balotiya <br>
+**Email:** balotiyash@gmail.com <br>
+**GitHub:** [balotiyash](https://github.com/balotiyash/) <br>
 **LinkedIn:** [balotiyash](https://www.linkedin.com/in/balotiyash/)  
 
 ---
